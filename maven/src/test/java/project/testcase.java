@@ -9,7 +9,7 @@ public class testcase {
 	@Test
 	public void test() {
 		
-		addition t=new addition();
+		Addition t=new Addition();
 		int actual=t.sum(10, 20);
 		int expected =30;
 		assertEquals(expected, actual);
